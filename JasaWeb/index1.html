@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YasaWEB</title>
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="cover-cover">
+            <h1>WebK!TA</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#about">Tentang Kami</a></li>
+                    <li><a href="#gallery">Contoh Design</a></li>
+                    <li><a href="#services">Layanan tesedia</a></li>
+                    <li><a href="#contact">Kontak Kami</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+    <section class="hero" id="home">
+        <div class="cover-cover">
+            <div class="home-content">
+                <div class="home-text">
+                    <h2>Bisnis Anda Butuh Website Bagus? WebK!TA Hadir dengan Solusi Tepat!</h2>
+                    <p>Dengan desain modern dan fungsionalitas tinggi, website Anda akan tampil lebih menarik dan memikat pelanggan. Desain yang user-friendly dan optimasi untuk konversi, bikin bisnis Anda lebih mudah ditemukan dan berkembang dan Dengan website yang responsif, pelanggan akan lebih mudah mengenal brand Anda dan mempercayai layanan yang Anda tawarkan.</p>
+                    <a href="#services" class="btn">Pelajari Lebih Lanjut</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="cover-cover">
+            <h2>Tentang Kami</h2>
+            <p>Kami adalah tim profesional yang berdedikasi untuk memberikan layanan pembuatan website terbaik. Dengan pengalaman bertahun-tahun, kami siap membantu Anda mencapai kesuksesan online. Kami memahami bahwa setiap bisnis unik, sehingga kami menyediakan solusi yang disesuaikan untuk memenuhi kebutuhan spesifik Anda.</p>
+            <p>Produk kami terjamin berkualitas tinggi dan telah melalui berbagai uji coba untuk memastikan kepuasan Anda.</p>
+            <p>Dengan lebih dari 10 tahun pengalaman di industri, kami telah membantu ratusan bisnis mencapai tujuan online mereka.</p>
+            <p>Daftar sekarang dan dapatkan konsultasi gratis selama 30 menit untuk mendiskusikan kebutuhan website Anda.</p>
+            <p>Tim kami terdiri dari desainer, pengembang, dan ahli SEO yang berdedikasi, semua bekerja sama untuk memastikan bahwa setiap proyek yang kami kerjakan memenuhi standar tertinggi dalam hal kualitas dan kinerja.</p>
+        </div>
+    </section>
+    <section class="gallery" id="gallery">
+        <div class="cover-cover">
+            <h2>Hasil Design Web</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="contoh web1.jpg" alt="Gallery Image 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="contoh web2.jpg" alt="Gallery Image 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="contoh web3.jpg" alt="Gallery Image 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="contoh web4.jpg" alt="Gallery Image 4">
+                </div>
+                <div class="gallery-item">
+                    <img src="contoh web5.jpg" alt="Gallery Image 4">
+                </div>
+            </div>
+        </div>
+        <section class="services" id="services">
+            <div class="cover-cover">
+                <h2>Layanan Kami</h2>
+                <div class="service">
+                    <h3>Website Development</h3>
+                    <p>Pelayanan pembuatan website baru maupun redesign website lama dengan teknologi serta desain terbaru.</p>
+                </div>
+                <div class="service">
+                    <h3>Social Media Engagement</h3>
+                    <p>Meningkatkan interaksi dan kepercayaan terhadap suatu brand/merk secara digital di social media, marketplace, dll.</p>
+                </div>
+                <div class="service">
+                    <h3>Search Engine Optimization</h3>
+                    <p>Optimasi website untuk meningkatkan traffic organik sebuah website di seluruh Search Engine. </p>
+                </div>
+                <div class="service">
+                    <h3>Social Media Management</h3>
+                    <p> proses perencanaan, pembuatan, dan Pengelolaan akun Social media menggunakan data-driven strategy.</p>
+                </div>
+                <div class="service">
+                    <h3>Digital Campaign</h3>
+                    <p>Pembuatan dan manajemen strategi iklan digital meliputi social media ads dan search engine marketing (SEM).</p>
+                </div>
+            </div>
+        </section>
+    
+    <section class="contact" id="contact">
+        <div class="cover-cover">
+            <h2>Alamat Kami</h2>
+            <p>Jl. Bisnis No. 123, Suite 100<br>Kota, Negara</p>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.4477318369185!2d144.9560543153912!3d-37.81362797975148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577ea38c3a34d0!2sEnvato!5e0!3m2!1sen!2sau!4v1572599086619!5m2!1sen!2sau" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+            <h3>Langganan Berita</h3>
+            <form>
+                <input type="email" placeholder="Masukkan email Anda" required>
+                <button type="submit">Berlangganan</button>
+            </form>
+            <h3>Hubungi Kami Lebih Lanjut</h3>
+            <div class="social-icons">
+                <a href="https://whatsapp.com/dl/" class="social-icon-whatsapp"><img src="wa icon.jpg" alt=""> WhatsApp</a>
+                <a href="https://www.instagram.com/yasazz.111?igsh=NnBzc25pdWR2dDNm" class="social-icon-instagram"> <img src="instagram icon.jpg" alt="">Instagram</a>
+                <a href="https://www.tiktok.com/@yasa.1111?_t=8rPP8wfguhz&_r=1" class="social-icon-tiktok"> <img src="tiktok icon.jpg" alt="">TikTok</a>
+                <a href="https://www.facebook.com/share/17sXqn3dBT/?mibextid=qi2Omg" class="social-icon-facebook"> <img src="facebook icon.jpg" alt="">facebook</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="cover-cover">
+            <p>&copy;2020 website desain terpercaya. Hak Cipta Dilindungi.</p>
+        </div>
+    </footer>
+</body>
+</html>
